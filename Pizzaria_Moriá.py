@@ -38,7 +38,7 @@ def salad_option():
     salad_option = InlineKeyboardMarkup()
     salad_option.row_width = 2
     salad_option.add(InlineKeyboardButton("🥗 Atum R$:19,90", callback_data="atum"),
-                                         InlineKeyboardButton("🥗 Mix de folhas R$:209,90", callback_data="mix"),
+                                         InlineKeyboardButton("🥗 Mix de folhas R$:29,90", callback_data="mix"),
                                          InlineKeyboardButton("🥕 Cenoura R$:19,90", callback_data="cen"))
     return salad_option
 
